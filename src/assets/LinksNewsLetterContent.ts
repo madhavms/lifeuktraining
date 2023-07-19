@@ -27,12 +27,12 @@ export const LinkNewsLettterContent: LinkNewsLettterContentItem[] = [
     type: contentType.list,
     heading: "Popular Links",
     list: [
-      { title: "About", link: "/uklifetraining/about" },
-      { title: "UK job market", link: "/uklifetraining/uk-job-market" },
-      { title: "UK job sectors", link: "/uklifetraining/uk-job-sectors" },
-      { title: "Living in the UK", link: "/uklifetraining/living-in-uk" },
-      { title: "Visa & residence", link: "/uklifetraining/visa-residence" },
-      { title: "Application process", link: "/uklifetraining/application-process" },
+      { title: "About", link: "/lifeuktraining/about" },
+      { title: "UK job market", link: "/lifeuktraining/uk-job-market" },
+      { title: "UK job sectors", link: "/lifeuktraining/uk-job-sectors" },
+      { title: "Living in the UK", link: "/lifeuktraining/living-in-uk" },
+      { title: "Visa & residence", link: "/lifeuktraining/visa-residence" },
+      { title: "Application process", link: "/lifeuktraining/application-process" },
     ],
   },
   {
@@ -40,8 +40,8 @@ export const LinkNewsLettterContent: LinkNewsLettterContentItem[] = [
     type: contentType.list,
     heading: "Important Services",
     list: [
-      { title: "Newsletter", link: "/uklifetraining/newsletter" },
-      { title: "Contact", link: "/uklifetraining/contact" },
+      { title: "Newsletter", link: "/lifeuktraining/newsletter" },
+      { title: "Contact", link: "/lifeuktraining/contact" },
     ],
   },
   {

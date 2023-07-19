@@ -18,7 +18,7 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="uklifetraining">
+        <Route path="lifeuktraining">
         <Route path="" element={<Home />} />
           <Route path="about" element={<Home />} />
           <Route path="uk-job-market" element={<Home />} />
