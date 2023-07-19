@@ -12,7 +12,7 @@ import {
 } from "@material-ui/core";
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import MenuIcon from "@material-ui/icons/Menu";
-import {AiOutlineDown} from "react-icons/ai";
+import { AiOutlineDown } from "react-icons/ai";
 import { MenuContent, NavBarLogoContent } from "../assets/NavBarMenuContent";
 
 const useStyles = makeStyles((theme) => ({
@@ -81,13 +81,18 @@ const Navbar = () => {
               <div>
                 <div className={classes.menu}>
                   {MenuContent.map((item) => (
-                   <ListItem button component={Link} to={item.link} key={item.id}>
-                   <ListItemText
-                     primary={item.title}
-                     classes={{ primary: classes.listItemText }}
-                   />
-                   <AiOutlineDown style={{ marginLeft: '4px' }} />
-                 </ListItem>
+                    <ListItem
+                      button
+                      component={Link}
+                      to={item.link}
+                      key={item.id}
+                    >
+                      <ListItemText
+                        primary={item.title}
+                        classes={{ primary: classes.listItemText }}
+                      />
+                      <AiOutlineDown style={{ marginLeft: "4px" }} />
+                    </ListItem>
                   ))}
                 </div>
               </div>
@@ -103,6 +108,7 @@ const Navbar = () => {
                     primary={item.title}
                     classes={{ primary: classes.listItemText }}
                   />
+                  <AiOutlineDown style={{ marginLeft: "4px" }} />
                 </ListItem>
               ))}
             </List>
